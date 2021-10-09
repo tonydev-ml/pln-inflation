@@ -1,6 +1,6 @@
 # PLN inflation
 
-Convert prices in Polish złoty (ISO 4217 code: PLN) from one year to another.
+Convert prices in Polish złoty (ISO 4217 code 'PLN') from one year to another.
 
 
 ## Usage
@@ -9,7 +9,7 @@ Convert prices in Polish złoty (ISO 4217 code: PLN) from one year to another.
 import inflation from 'pln-inflation';
 
 const current = inflation({ year: 1995, amount: 1.23 });
-console.log(`$1.23 in 1995 was worth $${current} in 2021`);
+console.log(`$1.23 in 1995 was worth $${current} in 2020`);
 ```
 
 ## Documentation
@@ -24,12 +24,10 @@ The required `from` argument and the optional `to` argument are similar objects.
 
 - `amount` is the nominal price
 - `year` is a year between 1995 and 2020
-- `month` (optional) if want a more precise measure, you can supply the month the price was observed
 
 #### `to` (optional)
 
 - `year` is a year between 1995 and 2021 and is 2020 (the last full year of data) by default
-- `month` (optional) if want a more precise measure, you can supply the month you want the new price for
 
 ## Data source
 
