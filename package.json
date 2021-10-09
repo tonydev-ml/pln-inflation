@@ -21,7 +21,7 @@
   ],
   "author": "@HerrDiesel",
   "license": "CC-BY-SA",
-  "repository": "github:HerrDiesel/pln-inflation",
+  "repository": "https://github.com/HerrDiesel/pln-inflation",
   "homepage": "https://github.com/HerrDiesel/pln-inflation",
   "bugs": "https://github.com/HerrDiesel/pln-inflation/issues",
   "devDependencies": {
