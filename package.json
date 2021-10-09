@@ -1,7 +1,7 @@
 {
-  "name": "us-inflation",
+  "name": "pln-inflation",
   "version": "1.0.0",
-  "description": "Convert US prices from one year (and month if you want) to another.",
+  "description": "Convert prices in Polish złoty (ISO from one year (and month if you want) to another.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon test.js",
@@ -13,16 +13,17 @@
     "inflation",
     "consumer price index",
     "cpi",
-    "us cpi",
-    "us inflation",
-    "bls",
-    "bureau of labor statistics"
+    "pln cpi",
+    "pln inflation",
+    "gus",
+    "statistics poland",
+    "central statistical office"
   ],
-  "author": "@jeremiak",
+  "author": "@HerrDiesel",
   "license": "CC-BY-SA",
-  "repository": "gitlab:jeremiak/us-inflation",
-  "homepage": "https://gitlab.com/jeremiak/us-inflation",
-  "bugs": "https://gitlab.com/jeremiak/us-inflation/issues",
+  "repository": "github:HerrDiesel/pln-inflation",
+  "homepage": "https://github.com/HerrDiesel/pln-inflation",
+  "bugs": "https://github.com/HerrDiesel/pln-inflation/issues",
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
