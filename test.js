@@ -23,7 +23,7 @@ test("should require a from argument with a year and an amount", t => {
 test("should only convert prices from 1995 or later", t => {
   t.throws(
     () => inflation({ year: 1900, amount: 1.23 }),
-    /from.year must be 1913 or later/
+    /from.year must be 1995 or later/
   )
   t.end()
 })
