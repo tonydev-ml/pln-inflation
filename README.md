@@ -27,7 +27,7 @@ The required `from` argument and the optional `to` argument are similar objects.
 
 #### `to` (optional)
 
-- `year` is a year between 1995 and 2021 and is 2020 (the last full year of data) by default
+- `year` is a year between 1995 and 2020 and is 2020 (the last full year of data) by default
 
 ## Data source
 
