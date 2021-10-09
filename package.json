@@ -1,0 +1,43 @@
+{
+  "name": "us-inflation",
+  "version": "1.0.0",
+  "description": "Convert US prices from one year (and month if you want) to another.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon test.js",
+    "lint": "eslint '**/*.js'",
+    "format": "prettier-eslint '**/*.js'",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "inflation",
+    "consumer price index",
+    "cpi",
+    "us cpi",
+    "us inflation",
+    "bls",
+    "bureau of labor statistics"
+  ],
+  "author": "@jeremiak",
+  "license": "CC-BY-SA",
+  "repository": "gitlab:jeremiak/us-inflation",
+  "homepage": "https://gitlab.com/jeremiak/us-inflation",
+  "bugs": "https://gitlab.com/jeremiak/us-inflation/issues",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "nodemon": "^1.17.5",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.13.7",
+    "prettier-eslint-cli": "^4.7.1",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {},
+  "pre-commit": [
+    "format",
+    "test"
+  ]
+}
