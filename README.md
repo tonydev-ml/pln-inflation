@@ -31,9 +31,9 @@ The required `from` argument and the optional `to` argument are similar objects.
 
 ## Data source
 
-All data comes from the Central Statistical Office of Poland (GUS) and is therefore limited to years between 1950 and 2020. However due to redenomination of Polish złoty in 1995 this package is currently limited to years between 1995 and 2020.  
+All data comes from the [Central Statistical Office of Poland (GUS)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/roczne-wskazniki-cen-towarow-i-uslug-konsumpcyjnych/) and is therefore limited to years between 1950 and 2020. However due to redenomination of Polish złoty in 1995 this package is currently limited to years between 1995 and 2020.  
 
 ## Prior art and motivation
 
-- I came across 'us-inflation' package (https://www.npmjs.com/package/us-inflation).
-- I was inspired by the president of the National Bank of Poland and his statement that "inflation does not affect the wealth of Polish citizens" (I rephrased it a bit for the sake of clarity). 🔗https://youtu.be/njqEBOntE9I
+- I came across ['us-inflation' package](https://www.npmjs.com/package/us-inflation).
+- I was inspired by the president of the National Bank of Poland and his statement that ["inflation does not affect the wealth of Polish citizens"](https://youtu.be/njqEBOntE9I) (I rephrased it a bit for the sake of clarity).
