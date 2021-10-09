@@ -8,8 +8,8 @@ Convert prices in Polish złoty (ISO 4217 code 'PLN') from one year to another.
 ```
 import inflation from 'pln-inflation';
 
-const current = inflation({ year: 1995, amount: 1.23 });
-console.log(`$1.23 in 1995 was worth $${current} in 2020`);
+const current = inflation({ year: 1995, amount: 10 });
+console.log(`10 zł in 1995 was worth ${current} zł in 2020`);
 ```
 
 ## Documentation
@@ -31,7 +31,7 @@ The required `from` argument and the optional `to` argument are similar objects.
 
 ## Data source
 
-All data comes from the [Statistics Poland (formerly known in English as Central Statistical Office; Główny Urząd Statystyczny)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/roczne-wskazniki-cen-towarow-i-uslug-konsumpcyjnych/) and is therefore limited to years between 1950 and 2020. However due to redenomination of Polish złoty in 1995 this package is currently limited to years between 1995 and 2020.  
+All data comes from the [Statistics Poland (Polish: Główny Urząd Statystyczny)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/roczne-wskazniki-cen-towarow-i-uslug-konsumpcyjnych/) and is therefore limited to years between 1950 and 2020. However due to redenomination of Polish złoty in 1995 this package is currently limited to years between 1995 and 2020.  
 
 ## Prior art and motivation
 
