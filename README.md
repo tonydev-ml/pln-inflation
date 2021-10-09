@@ -37,5 +37,5 @@ All data comes from the Central Statistical Office of Poland (GUS) and is theref
 
 ## Prior art and motivation
 
-A) I came across 'us-inflation' package (https://www.npmjs.com/package/us-inflation).
-B) I was inspired by the president of the National Bank of Poland and his statement that "inflation does not affect the wealth of Polish citizens" (I rephrased it a bit for the sake of clarity). 🔗https://youtu.be/njqEBOntE9I
+- I came across 'us-inflation' package (https://www.npmjs.com/package/us-inflation).
+- I was inspired by the president of the National Bank of Poland and his statement that "inflation does not affect the wealth of Polish citizens" (I rephrased it a bit for the sake of clarity). 🔗https://youtu.be/njqEBOntE9I
