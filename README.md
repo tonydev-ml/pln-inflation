@@ -5,7 +5,7 @@ Convert prices in Polish złoty (ISO 4217 code 'PLN') from one year to another.
 
 ## Usage
 
-```
+```js
 import inflation from 'pln-inflation';
 
 const current = inflation({ year: 1995, amount: 10 });
