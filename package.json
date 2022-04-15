@@ -1,6 +1,6 @@
 {
   "name": "pln-inflation",
-  "version": "1.0.3b",
+  "version": "1.0.3c",
   "description": "Convert prices in Polish złoty (ISO from one year (and month if you want) to another.",
   "main": "index.js",
   "scripts": {
