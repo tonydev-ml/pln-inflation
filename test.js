@@ -2,9 +2,9 @@ const test = require("tape")
 
 const inflation = require("./index")
 
-test("should convert 10 PLN in 1995 to 8.09 in 2020 if no to argument is provided", t => {
+test("should convert 10 PLN in 1995 to 8.22 in 2021 if no to argument is provided", t => {
   const actual = inflation({ year: 1995, amount: 10 })
-  t.equal(actual, 8.09)
+  t.equal(actual, 8.22)
   t.end()
 })
 
