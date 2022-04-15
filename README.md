@@ -9,7 +9,7 @@ Convert prices in Polish złoty (ISO 4217 code 'PLN') from one year to another.
 import inflation from 'pln-inflation';
 
 const current = inflation({ year: 1995, amount: 10 });
-console.log(`10 zł in 1995 was worth ${current} zł in 2020`);
+console.log(`10 zł in 1995 was worth ${current} zł in 2021`);
 ```
 
 ## Documentation
@@ -23,11 +23,11 @@ The required `from` argument and the optional `to` argument are similar objects.
 #### `from`
 
 - `amount` is the nominal price
-- `year` is a year between 1995 and 2020
+- `year` is a year between 1995 and 2021
 
 #### `to` (optional)
 
-- `year` is a year between 1995 and 2020 and is 2020 (the last full year of data) by default
+- `year` is a year between 1995 and 2021 and is 2021 (the last full year of data) by default
 
 ## Data source
 
