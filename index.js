@@ -1,6 +1,6 @@
 const data = require("./gus-cpi-data.json");
 
-const lastFullYear = 2020;
+const lastFullYear = 2021;
 
 function getCpi(year) {
   const annual = "Annual";
