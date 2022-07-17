@@ -31,7 +31,7 @@ The required `from` argument and the optional `to` argument are similar objects.
 
 ## Data source
 
-All data comes from the [Statistics Poland (Polish: Główny Urząd Statystyczny)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/roczne-wskazniki-cen-towarow-i-uslug-konsumpcyjnych/) and is therefore limited to years between 1950 and 2020. However due to redenomination of Polish złoty in 1995 this package is currently limited to years between 1995 and 2021.
+All data comes from the [Statistics Poland (Polish: Główny Urząd Statystyczny)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/roczne-wskazniki-cen-towarow-i-uslug-konsumpcyjnych/) and is therefore limited to years between 1950 and 2021. However due to redenomination of Polish złoty in 1995 this package is currently limited to years between 1995 and 2021.
 
 ## Prior art and motivation
 
