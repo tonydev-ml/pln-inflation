@@ -1,9 +1,10 @@
 {
   "name": "@HerrDiesel/pln-inflation",
-  "version": "1.0.6",
+  "version": "1.0.6a",
   "description": "Convert prices in Polish złoty from one year to another.",
   "main": "./index.js",
   "module": "./index.js",
+  "types": "index.d.ts",
   "files": [
     "index.js",
     "test.js",
