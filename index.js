@@ -2,10 +2,6 @@ const data = require("./gus-cpi-data.json");
 const lastFullYearOfData = 2021;
 const lastMonthOfData = "Aug";
 
-module.exports.inflation = annual_inflation(initialFrom, initialTo); // soon to be deprecated!
-module.exports.annual_inflation = annual_inflation(initialFrom, initialTo);
-module.exports.monthly_inflation = monthly_inflation(initialFrom, initialTo);
-
 // ANNUAL INFLATION
 function annual_inflation(initialFrom, initialTo) {
   const from = initialFrom || {};
@@ -81,3 +77,7 @@ function monthly_inflation(initialFrom, initialTo){
 
   return +currentValue.toFixed(2);
 }
+
+module.exports.inflation = annual_inflation; // soon to be deprecated!
+module.exports.annual_inflation = annual_inflation;
+module.exports.monthly_inflation = monthly_inflation;
