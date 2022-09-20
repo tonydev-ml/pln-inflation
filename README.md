@@ -30,6 +30,7 @@ console.log(`10 zł in December 1995 was worth ${kwasniewski} zł in December 20
 There are two functions exported by the library:
 - `annual_inflation` (`inflation` also works);
 - `monthly_inflation`
+
 Both return the converted price.
 
 ### `annual_inflation(from, [to])`
