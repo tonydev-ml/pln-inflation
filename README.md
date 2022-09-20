@@ -10,7 +10,7 @@ const pln = require('pln-inflation');
 ```
 ### Annual inflation
 ```js
-const current_an = pln.annual_inflation({ year: 1995, amount: 10 }); //
+const current_an = pln.annual_inflation({ year: 1995, amount: 10 });
 console.log(`10 zł in 1995 was worth ${current_an} zł in 2021`);
 
 const pis = pln.inflation({ year: 2015, amount: 10 }, { year: 2019 }); // for now for backward compatibility 'inflation()' also works
