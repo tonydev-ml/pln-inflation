@@ -15,6 +15,8 @@ function annual_inflation(initialFrom, initialTo) {
     throw new Error("from.year must be a number, like 2001");
   }else if(from.year < 1995){
     throw new Error("from.year must be 1995 or later");
+  }else if(from.year > latestAnnualData){
+    throw new Error("from.year must be "+latestAnnualData+" or earlier");
   }
 
   function getCpi(year) {
@@ -49,6 +51,10 @@ function monthly_inflation(initialFrom, initialTo){
     throw new Error("from.month must be a number from 1 to 12 (months)");
   }else if(from.year < 1995){
     throw new Error("from.year must be 1995 or later");
+  }else if(from.year > latestMonthlyData.year){
+    throw new Error("from.year must be "+latestMonthlyData.year+" or earlier");
+  }else if(from.year == latestMonthlyData.year && from.month > latestMonthlyData){
+    throw new Error("from.month must be "+latestMonthlyData.month+" or earlier");
   }
 
   function getCpi(year, month) {
