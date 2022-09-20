@@ -53,7 +53,7 @@ function monthly_inflation(initialFrom, initialTo){
 
   function getCpi(year, month) {
     const yearData = data.find(d => d.Year === year);
-    return yearData.Monthly[month];
+    return yearData.Monthly[month-1];
   }
 
   const fromCpi = getCpi(from.year, from.month);
