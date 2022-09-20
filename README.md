@@ -39,8 +39,8 @@ The required `from` argument and the optional `to` argument are similar objects.
 
 #### `from`
 
-- `amount` is the nominal price
 - `year` is a year between 1995 and 2021
+- `amount` is the nominal price
 
 #### `to` (optional)
 
