@@ -7,13 +7,18 @@
   "types": "index.d.ts",
   "files": [
     "index.js",
-    "test.js",
     "index.d.ts",
-    "LICENSE",
-    "README.md",
+    "test.js",
+    
     "gus-cpi-data.json",
     "package.json",
-    "package-lock.json"],
+    
+    "LICENSE",
+    "README.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
   "exports":{
     "import": "./index.js",
     "default": "./index.js"
@@ -30,17 +35,22 @@
     "pln inflation",
     "gus",
     "statistics poland",
-    "central statistical office"
+    "central statistical office",
+    "money",
+    "price",
+    "economy",
+    "economics",
+    "poland"
   ],
   "author": "@HerrDiesel",
   "license": "MIT",
   "repository": "https://github.com/HerrDiesel/pln-inflation",
   "homepage": "https://github.com/HerrDiesel/pln-inflation",
   "bugs": "https://github.com/HerrDiesel/pln-inflation/issues",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "tape": "^5.6.0"
   },
+  "dependencies": {},
   "pre-commit": [
     "format",
     "test"
