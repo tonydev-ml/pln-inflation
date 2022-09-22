@@ -29,7 +29,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[pln-inflation Code of Conduct](https://github.com/HerrDiesel/pln-inflationblob/master/CODE_OF_CONDUCT.md).
+[pln-inflation Code of Conduct](https://github.com/HerrDiesel/pln-inflation/blob/master/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable behavior
 by direct messaging [Herr Diesel](https://github.com/HerrDiesel) on Discord.
 
