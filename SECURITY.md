@@ -2,12 +2,13 @@
 
 ## Supported Versions
 
-The 1.0.x versions will not receive security updates due to 2.0.x backward compatibility.
+The 1.0.x versions **will not** receive security updates due to 2.0.x backward compatibility.
 
-Older versions will start receiving security updates if this changes.
+2.0.x versions **will** receive security updates, because they feature [tape](https://github.com/ljharb/tape) as a dependency rather than a dev dependency.
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 2.1.x   | :white_check_mark: |
 | 2.0.x   | :white_check_mark: |
 | < 2.0.x | :x:                |
 
