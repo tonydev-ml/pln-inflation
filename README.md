@@ -1,5 +1,6 @@
 # PLN inflation
 [![pln-inflation](https://snyk.io/advisor/npm-package/pln-inflation/badge.svg?)](https://snyk.io/advisor/npm-package/pln-inflation)
+[![NPMJS Registry package version](https://img.shields.io/github/package-json/v/HerrDiesel/pln-inflation/npmjs?color=BB2E3E&label=latest+version)](https://npmjs.com/pln-inflation)
 
 Convert prices in Polish złoty (ISO 4217 code 'PLN') from one year (and month) to another.
 
