@@ -61,7 +61,7 @@ This function is very similiar to `annual_inflation`, but allows conversion with
 #### `to` (optional)
 
 - `year` is a year between 1995 and 2022 and defaults to 2022 (the last year of data)
-- `month` is a numerical represention of a month (1-12) and defaults to 8 (the last month of data)
+- `month` is a numerical represention of a month (1-12) and defaults to 9 (the last month of data)
 
 ## Data source
 
