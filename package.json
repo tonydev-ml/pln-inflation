@@ -1,14 +1,16 @@
 {
   "name": "pln-inflation",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Convert prices in Polish złoty from one year (and month) to another.",
+  "publishConfig": {
+    "tag": "latest"
+  },
   "main": "./index.js",
   "module": "./index.js",
-  "types": "index.d.ts",
+  "types": "./index.d.ts",
   "files": [
     "index.js",
     "index.d.ts",
-    "test.js",
     
     "gus-cpi-data.json",
     "package.json",
@@ -24,7 +26,6 @@
     "default": "./index.js"
   },
   "scripts": {
-    "start": "nodemon test.js",
     "test": "node test.js"
   },
   "keywords": [
@@ -52,7 +53,6 @@
   },
   "dependencies": {},
   "pre-commit": [
-    "format",
     "test"
   ]
 }
