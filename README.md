@@ -15,11 +15,12 @@ const pln = require('pln-inflation');
 const current_an = pln.annual_inflation({ year: 1995, amount: 10 });
 console.log(`10 zł in 1995 was worth ${current_an} zł in 2021`);
 
-const pis = pln.inflation({ year: 2015, amount: 10 }, { year: 2019 }); // for now for backward compatibility 'inflation()' also works
+const pis = pln.inflation({ year: 2015, amount: 10 }, { year: 2019 }); // 'inflation()' also works
 console.log(`10 zł in 2015 was worth ${pis} zł in 2019`);
 ```
 ### Monthly inflation
 ```js
+// Let's assume it's August 2022
 const current_mo = pln.monthly_inflation({ year: 1995, month: 1, amount: 10 }); 
 console.log(`10 zł in January 1995 was worth ${current_mo} zł in August 2022`);
 
