@@ -1,6 +1,6 @@
 const data = require("./gus-cpi-data.json");
 const latestAnnualData = 2021; // year
-const latestMonthlyData = {year: 2022, month: 10}; // year and month
+const latestMonthlyData = {year: 2022, month: 11}; // year and month
 
 // ANNUAL INFLATION
 function annual_inflation(initialFrom, initialTo) {
