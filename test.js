@@ -3,9 +3,9 @@ const test = require("tape");
 const inf = require("./index.js");
 
 // annual_inflation() TESTS
-test("should convert 10 PLN in 1995 to 8.22 in 2021 if no to argument is provided", t => {
+test("should convert 10 PLN in 1995 to 7.82 in 2022 if no to argument is provided", t => {
   const actual = inf.annual_inflation({ year: 1995, amount: 10 });
-  t.equal(actual, 8.22);
+  t.equal(actual, 7.82);
   t.end();
 });
 
@@ -27,9 +27,9 @@ test("should only convert prices from 1995 or later", t => {
 });
 
 // monthly inflation() TESTS
-test("should convert 10 PLN in January 1995 to 8.78 in August 2022 if no to argument is provided", t => {
+test("should convert 10 PLN in January 1995 to 8.81 in December 2022 if no to argument is provided", t => {
   const actual = inf.monthly_inflation({ year: 1995, month: 1, amount: 10 });
-  t.equal(actual, 8.88);
+  t.equal(actual, 8.81);
   t.end();
 });
 
