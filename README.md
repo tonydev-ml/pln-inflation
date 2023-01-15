@@ -47,7 +47,7 @@ The required `from` argument and the optional `to` argument are similar objects.
 
 #### `to` (optional)
 
-- `year` is a year between 1995 and 2022 and defaults to 2021 (the last full year of data)
+- `year` is a year between 1995 and 2022 and defaults to 2022 (the last full year of data)
 
 ### `monthly_inflation(from, [to])`
 
