@@ -3,9 +3,9 @@ const test = require("tape");
 const inf = require("./index.js");
 
 // annual_inflation() TESTS
-test("should convert 10 PLN in 1995 to 7.82 in 2022 if no to argument is provided", t => {
+test("should convert 10 PLN in 1995 to 8.95 in 2022 if no to argument is provided", t => {
   const actual = inf.annual_inflation({ year: 1995, amount: 10 });
-  t.equal(actual, 7.82);
+  t.equal(actual, 8.95);
   t.end();
 });
 
