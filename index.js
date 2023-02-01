@@ -1,6 +1,6 @@
 const data = require("./gus-cpi-data.json");
-const latestAnnualData = 2022; // year
-const latestMonthlyData = {year: 2022, month: 12}; // year and month
+const latestAnnualData = latest_cpi().yearly.year_id; // year
+const latestMonthlyData = {year: latest_cpi().monthly.year_id, month: latest_cpi().monthly.month_id}; // year and month
 
 // ANNUAL INFLATION
 function annual_inflation(initialFrom, initialTo) {
@@ -72,6 +72,34 @@ function monthly_inflation(initialFrom, initialTo){
   return +currentValue.toFixed(2);
 }
 
-module.exports.inflation = annual_inflation; // soon to be deprecated!
+// LATEST CPI
+function latest_cpi(){
+  const yearly_data = function(){
+    if(data[data.length-1].Annual == 100) return {year_id: data[data.length-2].Year, value: data[data.length-2].Annual};
+    else return {year_id: data[data.length-1].Year, value: data[data.length-1].Annual};
+  };
+  const monthly_data = function(){
+    if(data[data.length-1].Monthly.length > 0) return {year_id: data[data.length-1].Year, month_id: data[data.length-1].Monthly.length, value: data[length-1].Monthly[data[data.length-1].Monthly.length-1]}
+    else return {year_id: data[data.length-2].Year, month_id: data[data.length-2].Monthly.length, value: data[data.length-2].Monthly[data[data.length-2].Monthly.length-1]}
+  };
+
+  const latest_cpi_data = {
+    monthly: {
+      year_id: monthly_data().year_id, // literally just a *year*, for example: 2023
+      month_id: monthly_data().month_id, // 1-12
+      value: monthly_data().value // CPI for this month
+    },
+    yearly: {
+      year_id: yearly_data().year_id,
+      value: yearly_data().value
+    }
+  };
+
+  return latest_cpi_data;
+}
+
+// MODULE EXPORTS
+module.exports.inflation = annual_inflation;
 module.exports.annual_inflation = annual_inflation;
 module.exports.monthly_inflation = monthly_inflation;
+module.exports.latest_cpi = latest_cpi;
