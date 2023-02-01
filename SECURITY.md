@@ -2,13 +2,12 @@
 
 ## Supported Versions
 
-The 1.0.x versions **will not** receive security updates due to 2.0.x backward compatibility.
-dependency.
+The 1.0.x versions **will not** receive security updates due to 2.x.x backward compatibility.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.2.x   | :white_check_mark: |
-| < 2.2.x | :x:                |
+| 2.3.x   | :white_check_mark: |
+| < 2.3.x | :x:                |
 
 ## Reporting a Vulnerability
 
