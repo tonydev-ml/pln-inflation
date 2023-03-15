@@ -79,7 +79,7 @@ function latest_cpi(){
     else return {year_id: data[data.length-1].Year, value: data[data.length-1].Annual};
   };
   const monthly_data = function(){
-    if(data[data.length-1].Monthly.length > 0) return {year_id: data[data.length-1].Year, month_id: data[data.length-1].Monthly.length, value: data[length-1].Monthly[data[data.length-1].Monthly.length-1]}
+    if(data[data.length-1].Monthly.length > 0) return {year_id: data[data.length-1].Year, month_id: data[data.length-1].Monthly.length, value: data[data.length-1].Monthly[data[data.length-1].Monthly.length-1]}
     else return {year_id: data[data.length-2].Year, month_id: data[data.length-2].Monthly.length, value: data[data.length-2].Monthly[data[data.length-2].Monthly.length-1]}
   };
 
