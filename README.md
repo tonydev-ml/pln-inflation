@@ -5,6 +5,8 @@
 
 Convert prices in Polish złoty (ISO 4217 code 'PLN') from one year (and month) to another.
 
+Konwertuj ceny w złotówkach (zł; kod ISO 4217 'PLN') pod kątem rocznej i miesięcznej inflacji.
+
 
 ## Usage
 ```js
