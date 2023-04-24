@@ -5,7 +5,7 @@ name: Node.js Package
 
 on:
   release:
-    branches: v2-npmjs
+    branches: v2
     types: [created]
 
 jobs:
