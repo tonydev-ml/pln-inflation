@@ -1,6 +1,6 @@
 {
   "name": "pln-inflation",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Convert prices in Polish złoty from one year (and month) to another.",
   "publishConfig": {
     "tag": "latest"
