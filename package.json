@@ -1,6 +1,6 @@
 {
   "name": "pln-inflation",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Convert prices in Polish złoty from one year (and month) to another.",
   "publishConfig": {
     "tag": "latest"
@@ -44,7 +44,7 @@
     "poland"
   ],
   "author": "@HerrDiesel",
-  "license": "MIT",
+  "license": "CC0 1.0",
   "repository": "https://github.com/HerrDiesel/pln-inflation",
   "homepage": "https://github.com/HerrDiesel/pln-inflation",
   "bugs": "https://github.com/HerrDiesel/pln-inflation/issues",
