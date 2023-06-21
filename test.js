@@ -29,7 +29,7 @@ test("should only convert prices from 1995 or later", t => {
 // monthly inflation() TESTS
 test("should convert 10 PLN in January 1995 to 8.95 in [latest month and year of data] if no to argument is provided", t => {
   const actual = pln.monthly_inflation({ year: 1995, month: 1, amount: 10 });
-  t.equal(actual, 8.67);
+  t.equal(actual, 8.54);
   t.end();
 });
 
